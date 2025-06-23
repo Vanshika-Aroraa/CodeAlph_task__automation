@@ -1,4 +1,4 @@
-# chatbot  — CodeAlpha Internship
+# task automation  — CodeAlpha Internship
 
 **Internship Domain**: Python
 
@@ -7,42 +7,43 @@
 
 **NAME**: Vanshika Arora
 
-**Task Name**: Basic chatbot
+**Task Name**: task automation
 
-**Task Number**: Task 4
+**Task Number**: Task 3
 
 **Duration**: April 30 – June 30, 2025
 
-# 🤖 Basic Rule-Based Chatbot (Python)
+ 🔁 Task Automation with Python
 
-A simple chatbot built in Python that responds to a few common messages. It's rule-based, so it matches input text with known patterns.
+This task includes three Python automation scripts to make routine tasks easier:
 
 ---
 
-## 🗨️ Features
+## ⚙️ Available Options
 
-- Responds to greetings
-- Replies to basic questions
-- Recognizes "bye" to end conversation
-- Console-based input/output
+### 1. Move `.jpg` files
+Moves all `.jpg` files from one folder to another using `shutil`.
+
+### 2. Email Extractor
+Scans a `.txt` file and extracts all valid email addresses using `re`.
+
+### 3. Webpage Scraper
+Fetches raw HTML from a URL and saves it to `webpage_content.txt`.
 
 ---
 
 ## 🧠 Concepts Used
 
-- Loops
-- Conditional statements
-- String matching and handling
-- Basic functions
+- File and folder manipulation (`os`, `shutil`)
+- Regex for email pattern matching
+- HTTP requests using `requests`
 
 ---
 
-## 🚀 How to Run
+## ✅ Requirements
 
-1. Save as `chatbot.py`
-2. Run using:
+- Python 3.x
+- For web scraping: `pip install requests`
 
-```bash
-python chatbot.py
 ---
 
